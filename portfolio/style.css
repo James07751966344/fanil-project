@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: auto;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 100%;
+    place-content: center;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: brown;
+    height: 50vvh;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+     margin: 15px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+footer{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-items: center;
+    color: brown;
+    text-shadow: 0cqmin 10px 5px;
+}
+
+.james{
+font-size: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-transform: uppercase;
+}Q  A
+
+.name{
+    padding: auto;
+    
+}
+
+
+.boxes{
+width: 50px;
+padding: 30px;
+display: flex;
+    margin: 30px;
+    float: right;
+    animation: ease-in-out;
+    
+
+}
+
+.boxes2{
+    width: 50px;
+padding: 30px;
+display: flex;
+    margin: 50px;
+    float: right;
+    transition: all;
+    box-shadow: inset 20px 20px;
+}
+
+div{
+    border: 20px;
+}
+
+p{
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.momo{
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+    width: 200px 200px;
+}
+.peter{
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+    width: auto;
+    border: 50px;
+    background-color: brown;
+    justify-content: center;
+
+}
+.kollie{
+   margin: 10px;
+   border: 3px solid black;
+   padding: 5px; 
+   font-size: medium;
+   text-decoration-color: azure;
+   color: white;
+   
+}
+.jane{
+    place-content: center;
+}
+.wee{
+    background-color: blueviolet;
+    padding: 5px;
+}
+.About{
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+    width: auto;
+    border: 50px;
+    background-color: rgb(66, 46, 46);
+    justify-content: center;
+
+}
+.me{
+    margin: 10px;
+    border: 3px solid black;
+    padding: 5px; 
+    font-size: medium;
+    text-decoration-color: azure;
+    color: white;
+     
+} 
+@media  screen and (max-width: 600px;){background-color: pink;}
+@media screen (min-width: 992px) {background-color: :orange;}
+    
+}
+    
